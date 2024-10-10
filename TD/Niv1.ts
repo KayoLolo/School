@@ -79,24 +79,23 @@
         
         
                 //i.
-        function delta(a:number, b:number, c:number):number{
+        function clac_delta(a:number, b:number, c:number):number{
             return b**2-4*a*c
         }
         //console.log(delta(2,2,2))
-        
-        
+
                 //j.
-        function root(a:number,b:number, c:number):number[]{
-            let res:number=b**2-4*a*c
-        
-            if(res=0){
-                return [-b/2*a]
-            }
-        
-            if(res<0){
-                return []
-            }
-        
-            return [-b - res**2/2*a , -b + res**2/2*a ]
-        }
+                function root(a:number,b:number, c:number):number[]{
+            let delta:number=clac_delta(a,b,c)
+                
+            if(delta==0){
+                        return [-b/2*a]
+                    }
+                
+            if(delta<0){
+                        return []
+                    }
+                
+            return [-b - delta**2/2*a , -b + delta**2/2*a ]
+                }
         //console.log(root(4,2,2))
