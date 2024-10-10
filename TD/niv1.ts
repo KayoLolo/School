@@ -96,17 +96,21 @@
                 
         
         
-                //h.
-        
-        let res:number=1
-        for (let i=24; i>0; i--){
-            if(24%i==0){
-                if(32%i==0){
-                    res= i
+        //h.
+
+
+        function pgcd(a:number, b:number):number{
+            let res:number=0
+            for (let i=a; i>0; i--){
+                if(a%i==0 && b%i==0){
+                        return i
+                        }
+                    }
+                return res
                 }
-            }
+        console.log(pgcd(24,32))
         
-        }
+        
         
         
         
