@@ -85,7 +85,7 @@
         //console.log(delta(2,2,2))
 
                 //j.
-                function root(a:number,b:number, c:number):number[]{
+            function root(a:number,b:number, c:number):number[]{
             let delta:number=clac_delta(a,b,c)
                 
             if(delta==0){
