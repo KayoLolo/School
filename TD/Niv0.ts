@@ -98,4 +98,4 @@
                 
             return [-b - delta**2/2*a , -b + delta**2/2*a ]
                 }
-        //console.log(root(4,2,2))
+        console.log(root(4,2,2))
