@@ -9,3 +9,21 @@ Conclusion: la carte comporte un num, nom et un type
 
 
 2. Partager les cartes entre les deux joueurs à parts egales
+
+
+
+
+            Etapes
+
+1.Creer une carte et l'afficher sous la forme "Deux de coeur" (Classe Cartes)
+
+2.  a.Creer un deck de 52 cartes et l'afficher en entier (classe deck)
+    b.Melanger le deck puis le réafficher 
+
+3.Creer les deux joueurs et leur distribuer les cartes tour à tour(classe Player)
+
+4.Faire jouer à chaque jouer la carte du desssus de son deck et l'afficher(bataille)
+
+5.Faire recuperer à un joueur ses cartes jouées plus celle de l'adversaire
+
+Faire le jeu

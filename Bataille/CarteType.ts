@@ -1,6 +1,6 @@
 export enum CarteType{
-    COEUR,
-    PIC,
-    TREFLE,
-    CARREAU
+    COEUR="Coeur",
+    PIC="Pic",
+    TREFLE="Trefle",
+    CARREAU="Carreau"
 }

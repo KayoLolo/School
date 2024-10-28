@@ -1,4 +1,4 @@
-import { Bataille } from "./Bataille"
+import { Deck } from "./Deck"
 
 export class Player{
     private player1:Player[]
