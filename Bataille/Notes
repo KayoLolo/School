@@ -1,0 +1,11 @@
+Projet: Faire le jeu de la bataille 
+
+A.Arriver à génerer des cartes(52 cartes):initialisation
+    1.Creation de la classe cartes qui va contetinir 52 cartes
+        a.Creation d'une classe Cartes
+    Il existe 13 cartes par type (1 à 9 puis AS, joker, queen et king)
+        b.Les cartes seront divisées à parts egales en 4 groupes
+Conclusion: la carte comporte un num, nom et un type 
+
+
+2. Partager les cartes entre les deux joueurs à parts egales
