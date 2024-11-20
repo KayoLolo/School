@@ -1,0 +1,15 @@
+1player 
+1rocher
+1trou
+
+Le but du jeu est le but du sokoban, faire en sorte que le joueur puisse se dplacer 
+Avoir des rochers et des trous
+L'ensemble sera dans un decor en 2D
+Le player ne peut pas se dplacer si un trou n'est pas rempli 
+S'il est rempli on peut marcher dessus et y faire passer d'autres rochers 
+
+Niveau 1, Avoir un rocher un player et un trou
+
+une fois gagné passer au iveau suivant
+
+Niveau 2, Avoir 3 rochers un player et 3 trous
